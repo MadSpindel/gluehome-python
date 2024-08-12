@@ -20,3 +20,7 @@ license = {file = "LICENSE"}
 
 [tool.setuptools.dynamic]
 version = {attr = "gluehome.__version__"}
+
+[project.urls]
+Homepage = "https://github.com/MadSpindel/gluehome-python/"
+Issues = "https://github.com/MadSpindel/gluehome-python/issues"
