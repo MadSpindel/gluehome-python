@@ -10,7 +10,7 @@ class GlueAuth:
         response = requests.post(
             f'{API_URL}/v1/api-keys',
             json={
-                'name': 'homeassistant',
+                'name': 'gluehome-python',
                 'scopes': ['locks.write', 'locks.read', 'events.read']
             },
             auth=(self.username, self.password),
